@@ -20,6 +20,7 @@ namespace Banken_Server
             XmlDocument xmlDoc = new XmlDocument();
             XmlDocument xmlDocId = new XmlDocument();
 
+            //Skapar filer om de inte finns, annars laddar enbart in dem
             if (!File.Exists("costumers.xml"))
             {
                 XmlDeclaration xmlDeclaration = xmlDoc.CreateXmlDeclaration("1.0", "utf-8", null);
@@ -74,6 +75,7 @@ namespace Banken_Server
                     for (int i = 0; i < messageSize; i++)
                         message += Convert.ToChar(bMessage[i]);
                     Console.WriteLine(message);
+                    //Ser vilken kod som är angiven. Detta bestämmer vad klienten vill göra på servern
                     switch (message[0])
                     {
                         case '0':
@@ -143,9 +145,7 @@ namespace Banken_Server
 
                     ms += new Costumer(name, userId) + "$";
                 }
-
-                Console.WriteLine(ms); //ÄNDRA SEN
-
+                
                 //Skickar meddelanderna till Klienten
                 byte[] bSend = Encoding.UTF8.GetBytes(ms);
                 socket.Send(bSend);

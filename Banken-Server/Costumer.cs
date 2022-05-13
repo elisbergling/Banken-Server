@@ -34,11 +34,12 @@ namespace Banken_Server
 
         public void Save(XmlDocument xmlDoc, XmlDocument xmlDocId)
         {
+            //Sparar id-nummret som kan användas senare för att se till att inte två stycken har samma nummer
             xmlDocId.SelectSingleNode("ids/costumerId")!
                 .InnerText = userId;
-            
             xmlDocId.Save("ids.xml");
 
+            //Sparar kundinformation
             XmlElement costumerXml = xmlDoc.CreateElement("costumer");
             xmlDoc.SelectSingleNode("costumers")?.AppendChild(costumerXml);
 
