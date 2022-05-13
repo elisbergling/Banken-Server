@@ -1,0 +1,6 @@
+C:\Users\elis.bergling\RiderProjects\Banken-Server\Banken-Server\bin\Debug\Banken_Server.exe
+C:\Users\elis.bergling\RiderProjects\Banken-Server\Banken-Server\bin\Debug\Banken_Server.pdb
+C:\Users\elis.bergling\RiderProjects\Banken-Server\Banken-Server\obj\Debug\Banken-Server.csprojAssemblyReference.cache
+C:\Users\elis.bergling\RiderProjects\Banken-Server\Banken-Server\obj\Debug\Banken-Server.csproj.CoreCompileInputs.cache
+C:\Users\elis.bergling\RiderProjects\Banken-Server\Banken-Server\obj\Debug\Banken_Server.exe
+C:\Users\elis.bergling\RiderProjects\Banken-Server\Banken-Server\obj\Debug\Banken_Server.pdb

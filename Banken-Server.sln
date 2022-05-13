@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banken-Server", "Banken-Server\Banken-Server.csproj", "{10A53692-3C8D-468C-BD57-825F6A9D3BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10A53692-3C8D-468C-BD57-825F6A9D3BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A53692-3C8D-468C-BD57-825F6A9D3BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A53692-3C8D-468C-BD57-825F6A9D3BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A53692-3C8D-468C-BD57-825F6A9D3BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
